@@ -1,0 +1,175 @@
+/*
+ Theme Name:     Twenty Seventeen Child Theme
+ Template:       twentyseventeen
+ Version:        1.0.0
+*/
+
+html {
+    margin-top: 0px !important;
+}
+
+.header-slider .wpsisac-slick-slider-wrp{ background-color: #333;} 
+
+.custom-header {
+    display: none;
+}
+.site-content-contain {
+    background-color: #333;
+    position: relative;
+}
+.block-date {
+    background-color: #E91E63;
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+}
+.block-movie-text {
+    color: #fff;
+}
+.block-movie-text h2 a {
+    color: #fff;
+    font-size: 20px;
+}
+.block-date:before {
+    position: absolute;
+    bottom: 15px;
+    right: 5px;
+    width: 16px;
+    height: 15px;
+    content: '';
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #333;
+}
+.block-date:after {
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+    width: 16px;
+    height: 15px;
+    content: '';
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #333;
+}
+.title-contact-us {
+    color: #fff;
+    text-align: center;
+}
+footer {
+    display: none;
+}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea {
+    color: #fff;
+    background: #333;
+    background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid #bbb;
+    -webkit-border-radius: 3px;
+    border-radius: 0px;
+    display: block;
+    padding: 0.7em;
+    width: 100%;
+}
+input[type="text"]:focus::placeholder, input[type="email"]:focus::placeholder, input[type="url"]:focus::placeholder, input[type="password"]:focus::placeholder, input[type="search"]:focus::placeholder, input[type="number"]:focus::placeholder, input[type="tel"]:focus::placeholder, input[type="range"]:focus::placeholder, input[type="date"]:focus::placeholder, input[type="month"]:focus::placeholder, input[type="week"]:focus::placeholder, input[type="time"]:focus::placeholder, input[type="datetime"]:focus::placeholder, input[type="datetime-local"]:focus::placeholder, input[type="color"]:focus::placeholder, textarea:focus::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #333;
+    opacity: 0; /* Firefox */
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+}
+input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="range"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="color"]:focus, textarea:focus {
+    color: #fff;
+    background: #333;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid #bbb;
+}
+div.wpcf7-response-output {
+    background-color: #fff;
+}
+button, input[type="button"], input[type="submit"] {
+    background-color: #E91E63;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.center-block {
+    float: none;
+}
+.title-animation {
+    color: #fff;
+    text-align: center;
+}
+.max-height-320 {
+    max-height: 320px;
+    overflow: hidden;
+}
+h2.title {
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+h2.movie-title {
+    margin-top: 5px;
+}
+.block-logo {
+    position: absolute;
+    z-index: 999999;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding-left: 60px;
+    padding-top: 5px;
+}
+
+.site-content {
+    padding-top: 0px;
+}
+.block-movie-text {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .text-slider .slick-prev, .text-slider .slick-next {
+        display: none !important;
+    }
+}
+#wpsisac-slick-slider-2 {
+    color: #fff;
+}
+.wpsisac-slick-slider.design-2 .slick-dots {
+    left: 0px !important;
+}
+#wpsisac-slick-slider-1.wpsisac-slick-slider .slick-arrow {
+    display: none !important;
+}
+#wpsisac-slick-slider-1.wpsisac-slick-slider .slick-dots li.slick-active button {
+    background: #E91E63 !important;
+}
+#wpsisac-slick-slider-2.wpsisac-slick-slider button.slick-prev, #wpsisac-slick-slider-2.wpsisac-slick-slider button.slick-prev:hover, #wpsisac-slick-slider-2.wpsisac-slick-slider button.slick-prev:focus {
+    background: rgb(51, 51, 51) url(/wp-content/plugins/wp-slick-slider-and-image-carousel/assets/css/arrow-left.png) center center no-repeat !important;
+    opacity: 0.7;
+}
+#wpsisac-slick-slider-2.wpsisac-slick-slider button.slick-next, #wpsisac-slick-slider-2.wpsisac-slick-slider button.slick-next:hover, .wpsisac-slick-slider button.slick-next:focus {
+    background: rgb(51, 51, 51) url(/wp-content/plugins/wp-slick-slider-and-image-carousel/assets/css/arrow-right.png) center center no-repeat !important;
+    opacity: 0.7;
+}

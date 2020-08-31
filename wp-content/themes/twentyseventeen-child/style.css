@@ -1,0 +1,63 @@
+/*
+ Theme Name:     Twenty Seventeen Child Theme
+ Template:       twentyseventeen
+ Version:        1.0.0
+*/
+
+.jumbotron-blue {
+    background-image: linear-gradient(to right top, #1a7189, #008fa2, #00aeb2, #00cdb7, #12ebb2);
+    color: #fff;
+}
+
+.jumbotron-red {
+    background-image: linear-gradient(to right top, #f01e1e, #f5003b, #f60054, #f2006c, #eb1283);
+    color: #fff;
+}
+
+.container-search {
+    position: relative;
+}
+
+.loading-data {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #bbb;
+    padding: 8px;
+}
+
+.close-data {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #bbb;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.content-box {
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    border: 1px solid #bbb;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+.box-movie {
+    border-bottom: 1px solid #f1f1f1;
+    padding: 5px;
+}
+
+.type-movie .post-thumbnail {
+    border: 2px solid #bbb;
+}
+
+.type-movie .entry-content {
+    background: #fff;
+    padding: 5px;
+}
+
+.container-categories .card {
+    margin-bottom: 2rem
+}
